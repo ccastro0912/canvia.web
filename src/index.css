@@ -1,0 +1,41 @@
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7f7;
+  min-height: 100%;
+}
+
+.Container{
+  padding: 2rem;
+  padding-top: 1rem;
+  flex: 1 1 0;
+}
+
+.p-card {
+  background-color: #ffffff;
+  color: #495057;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.p-card-body
+{
+  padding: 1.25rem;
+}
+
+.p-card-title{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.p-card .p-card-content {
+  padding: 1.25rem 0;
+}

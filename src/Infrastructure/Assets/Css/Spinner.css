@@ -1,0 +1,25 @@
+.PosSpinner{
+    margin-top: -60px;
+    margin-left: -60px;
+    left: 50%;top: 50%;
+    position: absolute; 
+    width:120px;
+    height:120px;
+}
+
+@keyframes p-progress-spinner-circle{
+    100%,
+    0% {
+        stroke: #0057e7 ;
+    }
+    40% {
+        stroke: #0057e7 ;
+    }
+    66% {
+        stroke: #0057e7 ;
+    }
+    80%,
+    90% {
+        stroke:#0057e7 ;
+    }
+}

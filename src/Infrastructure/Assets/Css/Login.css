@@ -1,0 +1,59 @@
+.toolbar{
+    align-items: center;
+    background:  #293686;
+    height: 60px;
+}
+
+.authBox{
+    width: 100%;
+    overflow: hidden;
+    margin: 70px auto 30px;
+}
+
+.box{
+    width: 420px;
+    height: 415px;
+    margin: auto auto;
+}
+
+.subtitleAuth{
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+    color:#293686;
+}
+
+.titleAuth{
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 28px;
+    color:#293686;
+}
+
+@media screen and (max-width: 1500px){
+    .image{
+        margin-left: 14rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .image{
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .image{
+        margin-left: 0rem;
+    }
+    .box{
+        width: 320px;
+    }
+}
+
+
